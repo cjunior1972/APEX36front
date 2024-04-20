@@ -6,9 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          APEX36 - Painel financeiro
-        </p>
+        
+        <div>
+          APEX36
+        </div>
+        <div>
+          painel financeiro
+        </div>
+          
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+
       </header>
     </div>
   );
